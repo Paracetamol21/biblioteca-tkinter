@@ -1,16 +1,3 @@
-#Universidad de Guadalajara.
-#Centro Universitario de Ciencias Exactas e Ingenierías.
-#División de tecnologías para la integración ciber-humana.
-#Departamento de ciencias computacionales.
-#Proyecto final: Biblioteca virtual
-#Equipo #1: Integrantes
-#Alonso Lomelí Diego Alejandro.
-#Arechiga Rojas Roman Antonio.
-#Bailón Badillo Emmanuel.
-#Caro Flores Christopher Tristán.
-#M.A: Bases de datos. Sección: D03
-#Calendario: lunes y miércoles (1100-1255)
-#Nombre del profesor: Mariscal Lugo Luis Felipe
 
 import tkinter as tk
 from tkinter import ttk 

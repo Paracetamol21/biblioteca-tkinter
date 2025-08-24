@@ -1,17 +1,3 @@
-#Universidad de Guadalajara.
-#Centro Universitario de Ciencias Exactas e Ingenierías.
-#División de tecnologías para la integración ciber-humana.
-#Departamento de ciencias computacionales.
-#Proyecto final: Biblioteca virtual
-#Equipo #1: Integrantes
-#Alonso Lomelí Diego Alejandro.
-#Arechiga Rojas Roman Antonio.
-#Bailón Badillo Emmanuel.
-#Caro Flores Christopher Tristán.
-#M.A: Bases de datos. Sección: D03
-#Calendario: lunes y miércoles (1100-1255)
-#Nombre del profesor: Mariscal Lugo Luis Felipe
-
 import psycopg2     #Extension de python para conectar con postgresql
 from tkinter import messagebox
 from envioCorreo import enviar_mensaje_notifiacion, enviar_mensaje_multa
@@ -22,7 +8,7 @@ def establecer_conexion():
     try:
         conexion = psycopg2.connect(#Usamos el metodo de psycopg2 y le pasamos los parametros necesarios
             user="postgres",                #Primer parametro: Nuestro usuario de postgrsql
-            password="pawPatrol26022024",   #Segundo parametro: Contraseña de nuestro server
+            password="ADMIN",   #Segundo parametro: Contraseña de nuestro server
             host="127.0.0.1",               #Tercer parametro: Host de nuestro server
             port="5432",                    #Cuarto parametro: Puerto de nuestro server
             database="biblioteca"           #Quinto parametro: Nombre de la base de datos
